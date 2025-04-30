@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Pro 300 - Transforme Seu Instagram</title>
+  <style>
+    body { margin: 0; font-family: 'Arial', sans-serif; background: #fff; color: #333; }
+    nav { background: #ff7b00; position: sticky; top: 0; width: 100%; padding: 10px 0; text-align: center; z-index: 1000; }
+    nav a { color: white; text-decoration: none; font-size: 20px; font-weight: bold; }
+    header { background: linear-gradient(135deg, #ff7b00, #ff0000); color: white; padding: 80px 20px; text-align: center; }
+    header h1 { font-size: 48px; margin-bottom: 10px; }
+    header p { font-size: 22px; margin-bottom: 30px; }
+    .cta-button, .floating-button { background: #ff7b00; color: white; padding: 15px 30px; font-size: 20px; font-weight: bold; border-radius: 8px; text-decoration: none; transition: 0.3s; display: inline-block; }
+    .cta-button:hover, .floating-button:hover { background: #e06600; }
+    .section { max-width: 1100px; margin: 40px auto; padding: 20px; }
+    .section-light { background: #fff5f0; padding: 40px 20px; border-radius: 10px; }
+    h2 { text-align: center; font-size: 36px; margin-bottom: 30px; }
+    p, li { font-size: 20px; line-height: 1.7; text-align: center; }
+    ul { list-style: none; padding-left: 0; }
+    ul li { margin-bottom: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 20px; }
+    .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; }
+    footer { text-align: center; font-size: 16px; color: #777; margin-top: 50px; padding: 20px; background: #f7f7f7; }
+    
+    /* Botão flutuante NOVO */
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ff7b00;
+      color: white;
+      padding: 18px 40px;
+      font-size: 22px;
+      font-weight: bold;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      animation: pulse 2s infinite;
+      z-index: 1000;
+    }
+    @keyframes pulse {
+      0% { transform: translateX(-50%) scale(1); }
+      50% { transform: translateX(-50%) scale(1.05); }
+      100% { transform: translateX(-50%) scale(1); }
+    }
+    @media (max-width: 768px) { .floating-button { display: block; } }
+
+    .countdown, .stock { text-align: center; font-size: 24px; color: #cc0000; margin: 20px 0; font-weight: bold; }
+
+    .comparison { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px; }
+    .comparison-block { background: #fff5f0; padding: 30px; border-radius: 10px; flex: 1; min-width: 280px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    .comparison-block h3 { color: #ff7b00; margin-bottom: 15px; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 30px; }
+    th, td { border: 1px solid #ddd; padding: 15px; font-size: 20px; }
+    th { background-color: #ff7b00; color: white; }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+    td { text-align: center; }
+  </style>
+
+  <script>
+    var countDownDate = new Date().getTime() + 30 * 60 * 1000;
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("countdown").innerHTML = "Oferta expira em: " + minutes + "m " + seconds + "s";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "Oferta encerrada!";
+      }
+    }, 1000);
+  </script>
+</head>
+<body>
+
+<nav><a href="#compra">Garanta seu Kit Agora</a></nav>
+
+<header>
+  <h1>Chega de Perder Clientes no Instagram!</h1>
+  <p>Com o Post Pro 300, você terá 1 ano de posts prontos para atrair mais clientes, vender mais e se tornar referência no seu mercado.</p>
+  <a href="#compra" class="cta-button">Quero Vender no Instagram Agora!</a>
+</header>
+
+<section class="section">
+  <div id="countdown" class="countdown"></div>
+  <div class="stock">🔥 Atenção: Apenas 50 Kits Disponíveis!</div>
+</section>
+
+<section class="section">
+  <h2>Sua Presença no Instagram Está Prejudicando Suas Vendas?</h2>
+  <p>Você já percebeu que, sem publicações consistentes e profissionais, seu negócio perde relevância e seus concorrentes ficam mais fortes?</p>
+</section>
+
+<section class="section-light">
+  <h2>Você Está Perdendo Dinheiro se...</h2>
+  <ul>
+    <li>❌ Não posta com frequência no Instagram</li>
+    <li>❌ Não transmite autoridade e confiança para seu público</li>
+    <li>❌ Depende apenas do boca a boca para conseguir clientes</li>
+    <li>❌ Perde oportunidades todos os dias sem perceber</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Imagine Ter um Instagram Atualizado Todos os Dias Sem Perder Horas Criando Conteúdo</h2>
+  <p>Com o Post Pro 300, você transforma seu Instagram em uma máquina de atração de clientes, ganha tempo, se posiciona como referência no seu mercado e aumenta seu faturamento de forma prática e segura.</p>
+  <div style="margin-top:20px;">
+    <a href="#compra" class="cta-button">Quero Vender no Instagram Agora!</a>
+  </div>
+</section>
+
+<section class="section-light">
+  <h2>O que Você Vai Ganhar com o Post Pro 300</h2>
+  <ul>
+    <li>✅ Posts prontos para manter seu perfil atualizado todos os dias</li>
+    <li>✅ Aumento de seguidores de forma orgânica</li>
+    <li>✅ Maior reconhecimento da sua marca</li>
+    <li>✅ Mais autoridade e mais clientes entrando em contato</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Benefícios Emocionais</h2>
+  <p>Sinta o orgulho de ver sua marca se destacar. Aumente sua confiança como empreendedor e tenha paz de espírito sabendo que seu marketing está funcionando para você automaticamente.</p>
+</section>
+
+<!-- Antes e Depois -->
+<section class="section">
+  <h2>Antes e Depois do Post Pro 300</h2>
+  <div class="comparison">
+    <div class="comparison-block">
+      <h3>Antes</h3>
+      <p>❌ Perfil desatualizado<br>❌ Poucos seguidores<br>❌ Baixa interação<br>❌ Poucas vendas<br>❌ Perda de credibilidade</p>
+    </div>
+    <div class="comparison-block">
+      <h3>Depois</h3>
+      <p>✅ Conteúdo diário e profissional<br>✅ Crescimento constante de seguidores<br>✅ Alta interação<br>✅ Mais vendas no Instagram<br>✅ Marca vista como autoridade</p>
+    </div>
+  </div>
+</section>
+
+<!-- Tabela Comparativa -->
+<section class="section">
+  <h2>Veja a Diferença</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Sem Post Pro 300</th>
+        <th>Com Post Pro 300</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>❌ Perfil parado e desatualizado</td>
+        <td>✅ Publicações diárias e profissionais</td>
+      </tr>
+      <tr>
+        <td>❌ Poucos seguidores e engajamento baixo</td>
+        <td>✅ Crescimento orgânico constante</td>
+      </tr>
+      <tr>
+        <td>❌ Marca vista como amadora</td>
+        <td>✅ Marca percebida como autoridade</td>
+      </tr>
+      <tr>
+        <td>❌ Perda de oportunidades de venda</td>
+        <td>✅ Mais clientes e mais vendas todos os meses</td>
+      </tr>
+      <tr>
+        <td>❌ Sem tempo para criar conteúdo</td>
+        <td>✅ Conteúdo pronto economizando horas por semana</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Depoimentos com Fotos -->
+<section class="section">
+  <h2>Veja o que dizem nossos clientes</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/150" alt="Foto Cliente 1" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-bottom: 15px;">
+      <h3>Carla Souza</h3>
+      <p>Empresária</p>
+      <p>"O Post Pro 300 salvou meu Instagram! Hoje tenho vendas todos os dias!"</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150" alt="Foto Cliente 2" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-bottom: 15px;">
+      <h3>Rafael Lima</h3>
+      <p>Coach de Carreira</p>
+      <p>"Finalmente consegui manter consistência e meus seguidores triplicaram."</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/150" alt="Foto Cliente 3" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover; margin-bottom: 15px;">
+      <h3>Ana Clara</h3>
+      <p>Nutricionista</p>
+      <p>"Simplesmente sensacional. Meus clientes dizem que meu Instagram parece de revista!"</p>
+    </div>
+  </div>
+</section>
+
+<!-- Você tem 3 escolhas -->
+<section class="section">
+  <h2>Você tem 3 escolhas agora...</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>❌ Continuar parado</h3>
+      <p>Não fazer nada e continuar vendo seus concorrentes crescendo enquanto seu Instagram fica parado e suas vendas diminuem.</p>
+    </div>
+    <div class="card">
+      <h3>❌ Tentar sozinho</h3>
+      <p>Gastar horas criando posts, estudando marketing e ainda assim ter resultados lentos, frustrantes e inconsistentes.</p>
+    </div>
+    <div class="card">
+      <h3>✅ Adquirir o Post Pro 300</h3>
+      <p>Receber 365 posts prontos, manter sua presença profissional, atrair mais clientes e aumentar suas vendas de forma prática e eficiente!</p>
+    </div>
+  </div>
+  <div style="margin-top:30px;">
+    <a href="#compra" class="cta-button">Quero Escolher o Sucesso!</a>
+  </div>
+</section>
+
+<!-- Bônus Exclusivos -->
+<section class="section-light">
+  <h2>Bônus Exclusivos para Quem Adquirir Agora</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Bônus 1: Pacote de Stories Prontos</h3>
+      <p>Receba 100 modelos de stories profissionais para manter sua audiência engajada todos os dias.</p>
+    </div>
+    <div class="card">
+      <h3>Bônus 2: Templates de Carrossel</h3>
+      <p>20 Templates de carrossel prontos para aumentar o tempo de retenção no seu perfil.</p>
+    </div>
+    <div class="card">
+      <h3>Bônus 3: Guia de Engajamento Rápido</h3>
+      <p>Um ebook exclusivo com dicas de como impulsionar o alcance dos seus posts em menos de 7 dias!</p>
+    </div>
+  </div>
+  <div style="margin-top:30px; text-align:center;">
+    <a href="#compra" class="cta-button">Quero Receber os Bônus!</a>
+  </div>
+</section>
+
+<!-- FAQ (Perguntas Frequentes) -->
+<section class="section">
+  <h2>Perguntas Frequentes</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Em quanto tempo terei acesso aos posts?</h3>
+      <p>O acesso é liberado imediatamente após a confirmação do pagamento.</p>
+    </div>
+    <div class="card">
+      <h3>Os posts são editáveis?</h3>
+      <p>Sim! Você poderá personalizar os posts se desejar, para se adaptar ainda mais ao seu estilo.</p>
+    </div>
+    <div class="card">
+      <h3>Preciso ter conhecimento em design?</h3>
+      <p>Não! Os posts já vêm prontos para usar, basta publicar no seu Instagram!</p>
+    </div>
+    <div class="card">
+      <h3>Esse material serve para qualquer tipo de negócio?</h3>
+      <p>Sim! Os posts são criados para serem adaptáveis a vários nichos, tanto produtos quanto serviços.</p>
+    </div>
+    <div class="card">
+      <h3>Existe algum custo mensal?</h3>
+      <p>Não! É um pagamento único e você terá acesso a todo o material sem mensalidades.</p>
+    </div>
+    <div class="card">
+      <h3>Posso usar os posts para meus clientes?</h3>
+      <p>Sim! Se você for social media ou gestor de tráfego, pode usar os posts para seus clientes também!</p>
+    </div>
+  </div>
+</section>
+
+<!-- Última Chamada para Ação -->
+<section class="section-light">
+  <h2>Esta é sua última chance!</h2>
+  <p style="font-size:22px; margin: 20px auto; max-width:800px;">Não deixe para depois! A cada dia sem um Instagram profissional, você está deixando dinheiro na mesa e seus concorrentes agradecem. Aproveite agora o Post Pro 300 com todos os bônus e transforme sua presença online!</p>
+  <div style="margin-top:30px;">
+    <a href="#compra" class="cta-button">Quero Começar Agora!</a>
+  </div>
+  <div style="margin-top:20px; font-size:18px; color:#cc0000;">
+    🔥 Oferta válida apenas enquanto durar o estoque!
+  </div>
+</section>
+
+<!-- Botão Flutuante Chamativo -->
+<a href="#compra" class="floating-button">Garanta já seu Kit!</a>
+
+<!-- Rodapé -->
+<footer>
+  Post Pro 300 | Todos os direitos reservados<br>
+  Suporte: contato@suamarca.com.br
+</footer>
+
+</body>
+</html>
+
