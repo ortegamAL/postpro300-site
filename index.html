@@ -161,14 +161,33 @@
                       </div>
                     </div>
 
-                    <div className="space-y-4">
-                      <button className="w-full bg-gradient-to-r from-[#C2185B] via-[#AD1457] to-[#C2185B] text-white py-6 rounded-2xl font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-xl">
-                        🛒 QUERO COMPRAR AGORA! EU MEREÇO! 💖
-                      </button>
-                      <button className="w-full bg-gradient-to-r from-[#FFF9C4] to-[#F8BBD9] text-[#AD1457] py-6 rounded-2xl font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl border-2 border-[#C2185B]">
-                        🎁 COMBO DOS 2: R$ 159,90 - ECONOMIZO R$ 19,90!
-                      </button>
-                    </div>
+                    {/* === BOTÕES DE COMPRA === */}
+<div className="space-y-4">
+  {/* Link do produto unitário */}
+  <a
+    href={`https://seuloja.com/checkout-unitario?sku=${encodeURIComponent(selectedProduct)}&qtd=${quantity}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <button className="w-full bg-gradient-to-r from-[#C2185B] via-[#AD1457] to-[#C2185B] text-white py-6 rounded-2xl font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-xl">
+      🛒 QUERO COMPRAR AGORA! EU MEREÇO! 💖
+    </button>
+  </a>
+
+  {/* Link do combo (2 produtos) */}
+  <a
+    href={`https://seuloja.com/checkout-combo?sku1=infinity&sku2=audace`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <button className="w-full bg-gradient-to-r from-[#FFF9C4] to-[#F8BBD9] text-[#AD1457] py-6 rounded-2xl font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl border-2 border-[#C2185B]">
+      🎁 COMBO DOS 2: R$ 159,90 - ECONOMIZO R$ 19,90!
+    </button>
+  </a>
+</div>
+
 
                     <p className="text-center text-lg text-[#C2185B] mt-6 font-bold animate-pulse">
                       ⚡ Só restam <span className="text-2xl text-[#AD1457]">23 unidades</span> no estoque!
